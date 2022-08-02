@@ -4,5 +4,18 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+This is `about` Page.
+
+If `customizing` the chirpy theme is completed, contents will be updated.
+
+Contents may be related to followings:
+
+- Python / Machine Learning
+
+- Math
+
+- Chemical Engineering
+
+- VBA in Excel
+
+- WEB / Blog / HTML-CSS-Javascript

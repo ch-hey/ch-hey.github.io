@@ -26,11 +26,12 @@
   --checkbox-checked-color: #07a8f7;
 
   /* Sidebar */
-  --sidebar-bg: #eeeeee;
-  --sidebar-muted-color: #a2a19f;
-  --sidebar-active-color: #424242;
-  --nav-cursor-color: #757575;
-  --sidebar-btn-bg: white;
+  --sidebar-bg: #05386B;
+  --sidebar-muted-color: #05386B;
+  --sidebar-active-color: #ffffff;
+  --nav-cursor-color: rgba(8, 60, 112, 0.192);
+  --sidebar-btn-bg: rgba(8, 60, 112, 0.5);
+  // --sidebar-btn-bg: white;
 
   /* Topbar */
   --topbar-text-color: rgb(78, 78, 78);
@@ -46,7 +47,7 @@
   --btn-patinator-text-color: #555555;
   --btn-paginator-hover-color: var(--sidebar-bg);
   --btn-paginator-border-color: var(--sidebar-bg);
-  --btn-text-color: #676666;
+  --btn-text-color: #C2CAD0;
   --pin-bg: #f5f5f5;
   --pin-color: #999fa4;
 
