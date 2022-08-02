@@ -109,6 +109,14 @@ cdn? raw.githubusercontent.com??
 
 머라고 검색해야 나오려나,,
 
+![image test](https://user-images.githubusercontent.com/99332645/182397427-a084320a-eb6c-439e-89f7-51e216331887.png)
+
+참고링크: [link](https://hyeonjiwon.github.io/blog/markdown_img/)
+
+issue저장하지 않으면 어떻게 되려나 시간지나서 확인해봐야될듯.
+
+링크 주소는 `https://user-images.githubusercontent.com/99332645/182397427-a084320a-eb6c-439e-89f7-51e216331887.png`
+
 - Default (with caption)
 ```
 ![Desktop View](/posts/20190808/mockup.png){: width="972" height="589" }
