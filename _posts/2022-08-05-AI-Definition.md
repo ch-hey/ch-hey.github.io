@@ -49,11 +49,11 @@ AGI는 그냥 사람복사본이고 ANI는 하나의 기능만 가지는 것으�
 
 ### Hierachy
 
-구글링해보면 아래 그림같은 다이어그램 많이 볼 수 있다. [(출처는 여기)]
+구글링해보면 아래 그림같은 다이어그램 많이 볼 수 있다. 
 
 ![AI](https://raw.github.com/ch-hey/imgcdn/master/img/2022-08-06/AI_ML_DL_Diagram.jpg)
 
-여기서도 AI는 사람의 행동을 흉내내는 기술로 설명한다. AI가 가장 넓은 범주이고 그 안에 머신러닝과 딥러닝이 보인다.
+여기서는 AI는 사람의 행동을 흉내내는 기술로 설명한다. AI가 가장 넓은 범주이고 그 안에 머신러닝과 딥러닝이 보인다.
 
 ## 2. Machine Learning
 
@@ -96,7 +96,7 @@ Laurence의 [Coursera 강의](https://www.coursera.org/professional-certificates
 
 **참고로 Andrew NG교수의 위 모든 분야를 커버하는 범위의 [Coursera 강의](https://www.coursera.org/learn/machine-learning)가 있다.**
 
-## Deep Learning
+## 3. Deep Learning
 
 위에 Machine Learning 분류표를 보면 맨 아래 네개의 분류가 있다. 이 중 Classification과 Regression을 보면 Neural Network라는 것이 보인다. Artificial Nerual Network, 인공신경망으로 불리는 이것은 머신러닝 기법 중의 하나로 IBM에서 잘 성명한 [**문서**](https://www.ibm.com/kr-ko/cloud/learn/neural-networks)가 있다. 
 
@@ -114,7 +114,9 @@ Laurence의 [Coursera 강의](https://www.coursera.org/professional-certificates
 
 ## Summary
 
-나름 여기저기서 긁어모은 자료들을 정리하고 엮어보았다. 이해가 잘 되지 않고 아직도 애매한 느낌을 충분히 가질 수 있다. 수학으로 정의된것을 보고 직접 코드짜보고 머신러닝을 해보면 훨씬 더 체감이 되고 이해하기 쉽다. 
+나름 여기저기서 긁어모은 자료들을 정리하고 엮어보았는데 잘못된 정보가 있을 수도 있고 이쪽 분야에서 충분히 합의되지 않은 내용이 들어가 있을 수도 있다. 그리고 이 분야가 워낙 변화가 많은 곳이다 보니 지금은 맞지만 나중에는 아닌 경우가 있을 수도 있다.
+
+따라서 수학으로 정의된 책이나 강의를 보는 것을 추천드린다. 직접 코드짜보고 머신러닝을 해보면 훨씬 더 체감이 되고 이해하기 쉽다. 여기서는 그냥 개괄적인 내용만 다루고 자세한 내용은 다른 포스팅에 하나씩 풀어갈 예정이다.
 
 특히 [Coursera의 Andrew NG교수 강의](https://www.coursera.org/learn/machine-learning)를 추천드린다. 기초를 다지는데 아주아주 좋은 것 같다. 포스팅할 내용의 주된 부분도 이 수업에서 배운 내용을 정리할 예정이다. 이 이후에 Laurence의 [Coursera 강의](https://www.coursera.org/professional-certificates/tensorflow-in-practice)를 들으면 머신러닝을 위한 Tool 사용방법을 접해볼 수 있다. 
 
