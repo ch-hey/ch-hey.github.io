@@ -98,18 +98,18 @@ Laurence의 [Coursera 강의](https://www.coursera.org/professional-certificates
 
 ## 3. Deep Learning
 
-위에 Machine Learning 분류표를 보면 맨 아래 네개의 분류가 있다. 이 중 Classification과 Regression을 보면 Neural Network라는 것이 보인다. Artificial Nerual Network, 인공신경망으로 불리는 이것은 머신러닝 기법 중의 하나로 IBM에서 잘 성명한 [**문서**](https://www.ibm.com/kr-ko/cloud/learn/neural-networks)가 있다. 
+위에 Machine Learning 분류표를 보면 맨 아래 네개의 분류가 있다. 이 중 Classification과 Regression을 보면 Neural Network라는 것이 보인다. Artificial Nerual Network, 인공신경망으로 불리는 이것은 머신러닝 기법 중의 하나로 IBM에서 잘 설명한 [**문서**](https://www.ibm.com/kr-ko/cloud/learn/neural-networks)가 있다. 
 
 ![Deel Learning](https://1.cms.s81c.com/sites/default/files/2021-01-06/ICLH_Diagram_Batch_01_03-DeepNeuralNetwork-WHITEBG.png){: width="500"}
 
-위 그림처럼 인공신경망은 입력층, 은닉층, 출력층 등의 여러 층으로 이루어진 시스템이다. 이 중 중간에 은닉층이 2개이상 층으로 이루어진 복잡하고 거대한 인공신경망을 Deep Neural Network라고 부르며 이를 활용한 머신러닝을 Deep Learning이라고 부른다. 
+위 그림처럼 인공신경망은 입력층, 은닉층, 출력층 등의 여러 층으로 이루어진 시스템이다. 이들중 중간에 은닉층이 2개이상 층으로 이루어진 복잡하고 거대한 인공신경망을 Deep Neural Network라고 부르며 이를 활용한 머신러닝을 Deep Learning이라고 부른다. 
 
 여기까지 정리해보면 
 
 > **Deel Learning**은 Machine Learning의 한 분야로 **`2개 이상의 은닉계층을 가지는 인공신경망을 활용한 머신러닝기법 중 하나`** 라고 정의하자. 
 {: .prompt-info}
 
-컴퓨터 기능 향상과 함께 거대한 인공신경망을 활용한 계산들이 가능해지면서 이미지인식이나 자연어 처리 등의 분야에서 Deel Learning이 많이 활용되었고 실제로 잘 작동하는 것이 최근의 인공지능에 대한 관심을 설명하는 여러 요인 중에 하나일 것 같다.
+컴퓨터 기능 향상과 함께 거대한 인공신경망을 활용한 무거운 계산들이 가능해지면서 이미지인식이나 자연어 처리 등의 분야에서 Deel Learning이 많이 활용되었고 실제로 잘 작동하는 것이 최근의 인공지능에 대한 관심을 설명하는 여러 요인 중에 하나일 것 같다.
 
 
 ## Summary
