@@ -1,5 +1,5 @@
 ---
-title: 인공지능의 정의
+title: What is Artificial Intelligence?
 date: 2022-08-05 20:55:00 +0800
 categories: [Machine Learning, Definition]
 tags: [AI, Machine Learning]
