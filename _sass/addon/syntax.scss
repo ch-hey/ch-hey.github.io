@@ -179,7 +179,8 @@ div {
 
   border-top-left-radius: $code-radius;
   border-top-right-radius: $code-radius;
-  display: flex;
+  // display: flex;
+  display: none;
   justify-content: space-between;
   align-items: center;
   height: $code-header-height;

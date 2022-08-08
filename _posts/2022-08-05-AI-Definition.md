@@ -1,5 +1,5 @@
 ---
-title: What is Artificial Intelligence?
+title: Artificial Intelligence
 date: 2022-08-05 20:55:00 +0800
 categories: [Machine Learning, Definition]
 tags: [AI, Machine Learning]
@@ -10,9 +10,10 @@ image:
   width: 250
   alt: AI Character
 ---
-무언가에 대해 대화하기 전에 그것에 대한 정의를 서로 맞춰 나가는 것은 매우 중요하다. 시간이 좀 걸리더라도 용어에 대한 정의에 합의한 이후 더 깊게 들어 가는것이 결국 시간을 아끼는 방법이다.
 
-인공지능 (Artificial Intelligence, AI), 머신러닝 (Machine Learing, ML), 딥러닝 (Deep Learning, DL)의 정의에 대해 찾아본 내용 정리다. 여기에는 용어별 정의와 적용/활용 되는 범위와 공부하는데 좋았던 사이트, 자료들 출처정도 정리한다. 다른 포스팅에 간단한 수학과 `Python` 프로그래밍 예제 정리할 계획이다.
+무언가에 대해 말하기 전에 그것에 대한 정의를 서로 맞춰 나가는 것은 매우 중요하다. 시간이 좀 걸리더라도 용어에 대한 정의에 합의한 이후 더 깊게 들어 가는것이 결국 시간을 아끼는 방법이다.
+
+인공지능 (Artificial Intelligence, AI), 머신러닝 (Machine Learing, ML), 딥러닝 (Deep Learning, DL)의 정의에 대해 찾아본 내용을 정리한다. 여기에는 용어별 정의와 적용/활용 되는 범위와 공부하는데 좋았던 사이트, 자료들 출처도 함께 정리한다. 다른 포스팅에 간단한 수학과 `Python` 프로그래밍 예제 정리할 계획이다.
 
 
 ## 1. Artificial Intelligence
@@ -29,7 +30,7 @@ AI발전 과정에서 '인간의 행동'에 집중한 연구자들도 있었고 
 
 > “**An AI is a computer system that is able to perform tasks that ordinarily require human intelligence**. These artificial intelligence systems are powered by machine learning. Many of them are powered by machine learning, some of them are powered by specifically deep learning, some of them are powered by very boring things like just rules.”
 
-좀 애매한 부분이 있어도 훨씬 간단하고 직관적이다. 인간이 해결할만한 지능이 필요한 문제를 컴퓨터가 해결해주는 것을 AI라고 부르자 하고 말한다. 실은 대부분의 이쪽분야 분들은 위처럼 얘기하는 것 같았다. [여기](https://www.kdnuggets.com/2017/07/rapidminer-ai-machine-learning-deep-learning.html)에서도 AI는 사람의 행동을 흉내내는 모든 컴퓨터 기술을 말한다고 한다. 
+좀 애매한 부분이 있어도 훨씬 간단하고 직관적이다. 인간이 해결할만한 지능이 필요한 문제를 컴퓨터가 해결해주는 것을 AI라고 부르자 하고 말한다. 실은 대부분의 이쪽분야 분들은 위처럼 얘기하는 것 같았다. [이 페이지](https://www.kdnuggets.com/2017/07/rapidminer-ai-machine-learning-deep-learning.html)에서도 AI는 사람의 행동을 흉내내는 모든 컴퓨터 기술을 말한다고 한다. 
 
 그 유명한 Andrew NG 교수님의 [Coursera 강의](https://www.coursera.org/learn/ai-for-everyone?)에서는 AI를 적용 범위에 따라 두 개로 분류하기도 한다. 
 
@@ -80,7 +81,9 @@ Laurence의 [Coursera 강의](https://www.coursera.org/professional-certificates
 > **Machine Learning**은 AI의 한 분야로 **`Data로 부터 학습하는(답을 주는 Rule을 찾는) 알고리즘`** 이라고 정의하자. 
 {: .prompt-info}
 
-되게 추상적이고 머 대단한게 있어보이고 딱 와닿지 않게 느껴질 수도 있지만, 예시를 한 번 보면 그냥 결국 Fitting 하는거구나 생각이 든다.
+학습을 한다고 표현을 하니 마치 컴퓨터가 인간의 영역을 들어온 듯이  대단한 알고리즘이 있을것 같고 막연하게 느껴질 수도 있지만, 예시를 한 번 보면 그냥 결국 Fitting 하는거구나 생각이 든다. 가치를 절하하거나 무시하자는 얘기가 아니다. 막상 조금만 더 들어가 보면 정말 대단한 Fitting이다. 하지만 추상적이고 막연한 느낌을 가지는 것보다는 그냥 수학이구나 하는 생각을 가지는 게 처음에 접근하기에 좋다고 생각한다.
+
+실은 넓게 보면 Linear Regression도 Machine Learning이다.
 
 ### Hierachy
 
@@ -118,7 +121,7 @@ Laurence의 [Coursera 강의](https://www.coursera.org/professional-certificates
 
 따라서 수학으로 정의된 책이나 강의를 보는 것을 추천드린다. 직접 코드짜보고 머신러닝을 해보면 훨씬 더 체감이 되고 이해하기 쉽다. 여기서는 그냥 개괄적인 내용만 다루고 자세한 내용은 다른 포스팅에 하나씩 풀어갈 예정이다.
 
-특히 [Coursera의 Andrew NG교수 강의](https://www.coursera.org/learn/machine-learning)를 추천드린다. 기초를 다지는데 아주아주 좋은 것 같다. 포스팅할 내용의 주된 부분도 이 수업에서 배운 내용을 정리할 예정이다. 이 이후에 Laurence의 [Coursera 강의](https://www.coursera.org/professional-certificates/tensorflow-in-practice)를 들으면 머신러닝을 위한 Tool 사용방법을 접해볼 수 있다. 
+특히 Coursera에 있는 [Andrew NG교수 강의](https://www.coursera.org/learn/machine-learning)를 추천드린다. 기초를 다지는데 아주아주 좋은 것 같다. 포스팅할 내용의 주된 부분도 이 수업에서 배운 내용을 정리할 예정이다. 이 이후에 [Laurence의 Coursera 강의](https://www.coursera.org/professional-certificates/tensorflow-in-practice)를 들으면 머신러닝을 위한 Tool 사용방법을 접해볼 수 있다. 
 
 앞으로의 Tool로 Python과 Jupyter, 머신러닝 라이브러리는 Tensorflow를 사용할 것이다. 
 
