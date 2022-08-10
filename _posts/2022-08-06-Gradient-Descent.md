@@ -264,7 +264,7 @@ plt.show()
 
 ## Summary
 
-Labeled Data(붓꽃 꽃잎의 길이-너비 data)를 이용해서 첫번째 **Machine Learning**을 해보았다. Cost Function을 최소화하는 선형식 h의 parameter를 Gradient Descent 알고리즘으로 구해보았고 실제로 잘 작동하는 것을 확인했다.
+Labeled Data(붓꽃 꽃잎의 길이-너비 data)를 이용해서 첫번째 **Machine Learning**을 해보았다. Cost Function을 최소화하는 선형식 h의 parameter를 Gradient Descent 알고리즘으로 구해보았고 실제로 잘 작동하는 것을 확인했다. 모든 경우에 잘 작동하는 것은 아니며 Cost Function이 Convex한 형태여야만 global minimum에 도달할 수 있으며 아닌 경우 local minimum에 빠질 수 있다. 더 궁금해서 자세한 설명이 필요하면 [이 문서](http://sanghyukchun.github.io/63/)혹은 Andrew Ng교수의 수업을 추천한다.
 
 앞에서 얘기했던 Machine Learning의 정의를 생각해 보면 (Data로 부터 학습하는 알고리즘) '학습'이라는 단어에 대해 이제는 다른 느낌을 가질 수 있다. 처음에는 마치 컴퓨터가 인간처럼 학습을 한다는 뭔가 공상과학속 얘기같은 느낌을 받았을 수 있다. 하지만 실상은 Gradient Descent 알고리즘이 제안하는 parameter update 방식을 반복해서 적용하는 것(오차를 최소화 해나가는 과정)임을 알 수 있다. 결국 Cost를 최소화 해나가는 반복된 parameter update과정이며 본질적으로 Fitting이고 Regression이다. (내가 잘 몰라서 이렇게 얘기하는 것일수도 있지만 어쨌든 지금까지 내 생각은 이렇다.)
 
