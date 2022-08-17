@@ -5,9 +5,9 @@ categories: [Python, Initial Setting]
 tags: [Python, Initial Setting, VSCode]
 ---
 
-![python logo](https://upload.wikimedia.org/wikipedia/commons/f/f8/Python_logo_and_wordmark.svg){:. width="500}
+![python logo](https://upload.wikimedia.org/wikipedia/commons/f/f8/Python_logo_and_wordmark.svg){:. width="500"}
 
-![vscode logo](https://miro.medium.com/max/480/1*MGcLJS1ZvMFcBA94PXn16Q.png){:. width="300}
+![vscode logo](https://miro.medium.com/max/480/1*MGcLJS1ZvMFcBA94PXn16Q.png){:. width="300"}
 
 Python을 시작해 보겠다 마음먹어도 막상 설치하고 구동하는 것부터가 진입장벽이다. 업무에도 활용해 보고 싶은데 심지어 회사 PC에 설치는 신경 써야 할 것도, 안 되는것도 많다. 이번 포스팅에서는 회사 PC에 어떻게든 Python 설치를 하고 사용해보면서 겪었던 일들과 주의점 정리해본다.
 

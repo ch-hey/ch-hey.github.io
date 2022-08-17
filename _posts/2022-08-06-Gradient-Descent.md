@@ -7,7 +7,7 @@ math: true
 mermaid: true
 ---
 
-수치해석시간에 배우는 내용들 기억이 난다면 빠르게 skip해도 좋지만 후반부에 Python으로 작성한 코드도 있기 때문에 한 번 정도는 보는 것도 좋을 것 같다. 
+수치해석시간에 배우는 내용들 기억이 난다면 빠르게 Skip해도 좋지만 후반부에 Python으로 작성한 코드도 있기 때문에 한 번 정도는 보는 것도 좋을 것 같다. 
 
 Gradient Descent 방식을 통해 Linear Regression을 진행한다. 결국 Machine Learning이란걸 해본다.
 

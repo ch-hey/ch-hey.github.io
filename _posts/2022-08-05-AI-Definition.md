@@ -58,7 +58,7 @@ AI분야의 처음은 인간이 할 만한 복잡한 일을 컴퓨터가 해결�
 
 ### 2.1. Definition
 
-[이 책]((https://pythonnumericalmethods.berkeley.edu/notebooks/chapter25.01-Concept-of-Machine-Learning.html))에서는 머신러닝을 아래와 같이 설명한다.
+[이 책](https://pythonnumericalmethods.berkeley.edu/notebooks/chapter25.01-Concept-of-Machine-Learning.html)에서는 머신러닝을 아래와 같이 설명한다.
 
 > Machine learning, as the name suggest, are **a group of algorithms that try to enable the learning capability of the computers, so that they can learn from the data or past experiences**. The idea is that, as a kid, we gain many skills from learning. One example is that we learned how to recognize cats and dogs from a few cases that our parents showed to us. We may just see a few cats and dogs pictures, and next time on the street when we see a cat, even though it may be different from the pictures we saw, we know it is a cat. This ability to learn from the data that presented to us and later can be used to generalize to recognize new data is one of the things we want to teach our computers to do.
 
