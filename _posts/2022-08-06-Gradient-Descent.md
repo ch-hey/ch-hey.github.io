@@ -7,13 +7,17 @@ math: true
 mermaid: true
 ---
 
-## Intro
+수치해석시간에 배우는 내용들 기억이 난다면 빠르게 skip해도 좋지만 후반부에 Python으로 작성한 코드도 있기 때문에 한 번 정도는 보는 것도 좋을 것 같다. 
+
+Gradient Descent 방식을 통해 Linear Regression을 진행한다. 결국 Machine Learning이란걸 해본다.
+
+## 1. Intro
 
 머신러닝에서 사용되는 알고리즘중 하나인 Gradient Descent, 경사하강법에 대해서 간단히 작성한다. 가능한 Andrew NG 교수의 Notation을 따르려고 한다.
 
 머신러닝 중에서 답이 함께 있는 데이터를 사용하는 Supervised learning에 해당하며 단순 Linear Regression에 대한 예제로 설명한다. Data는 대표적인 Toy dataset인 iris를 이용한다. 
 
-## Background
+## 2. Background
 
 아래와 같이 변수 x에 대한 결과값 y에 대한 Dataset이 있고 우리는 이 둘 사이의 관계를 설명해주는 모델을 만들어야 한다. 모델이 만들어지면 데이터에는 없던 새로운 x를 넣었을 때 결과값인 y를 예측해 줄 것이다. 
 
@@ -35,7 +39,7 @@ $$(x^m, y^m)$$
 $$h_{\theta} = {\theta}_0 + {\theta}_1 x \quad \quad (1) $$
 
 
-h는 hypothesis를 나타내며 parameter로 ${\theta}_0, {\theta}_1$을 쓰는 선형식이다. 
+h는 hypothesis를 나타내며 parameter로 ${\theta}_0, {\theta}_1$을 쓰는 선형모델로 가정한다는 의미다.
 
 이제 문제는 맨 위의 Dataset에 가장 잘 맞는 h식을 찾는 것이며 결국 아래 오차식 $J(\theta)$을 최소화 시키는 parameter인 ${\theta}_0, {\theta}_1$를 찾는 것으로 정리할 수 있다.
 
@@ -57,7 +61,7 @@ $\alpha$는 learning rate라 불리는 임의의 양수이다. Gradient Descent 
 2. Parameter Update rule에 따라 반복적으로 ${\theta_0, \theta_1}$를 변화시킨다.
 3. Convergence가 확인되면 최종 ${\theta_0, \theta_1}$를 반환하고 반복을 종료한다.
 
-## Derivation
+## 3. Derivation
 
 Gradient Descent의 핵심인 Parameter Upadate 식(4)는 수학적으로 아래와 같이 유도된다.
 
@@ -85,7 +89,7 @@ $$ = -\alpha \left| \nabla J_{\theta_i} \right|^2 \leqq 0 $$
 
 정리해보면 식(5)를 통해 $\Delta J$가 음수가 되도록 $\theta$를 update해주는 방식으로 Cost Function을 최소화 시켜주는 알고리즘이 Gradient Descent 이다. (좀 더 정확히는 Batch Gradient Descent 이다.)
 
-## Application
+## 4. Calculation with Python
 
 필요한 식 정리가 끝났다. 실제로 Gradient Descent 알고리즘을 통해 Linear Regression을 해보자. 할 수 있는 가장 간단한 형태의 Machine Learning이다.
 
@@ -266,6 +270,6 @@ plt.show()
 
 Labeled Data(붓꽃 꽃잎의 길이-너비 data)를 이용해서 첫번째 **Machine Learning**을 해보았다. Cost Function을 최소화하는 선형식 h의 parameter를 Gradient Descent 알고리즘으로 구해보았고 실제로 잘 작동하는 것을 확인했다. 모든 경우에 잘 작동하는 것은 아니며 Cost Function이 Convex한 형태여야만 global minimum에 도달할 수 있으며 아닌 경우 local minimum에 빠질 수 있다. 더 궁금해서 자세한 설명이 필요하면 [이 문서](http://sanghyukchun.github.io/63/)혹은 Andrew Ng교수의 수업을 추천한다.
 
-앞에서 얘기했던 Machine Learning의 정의를 생각해 보면 (Data로 부터 학습하는 알고리즘) '학습'이라는 단어에 대해 이제는 다른 느낌을 가질 수 있다. 처음에는 마치 컴퓨터가 인간처럼 학습을 한다는 뭔가 공상과학속 얘기같은 느낌을 받았을 수 있다. 하지만 실상은 Gradient Descent 알고리즘이 제안하는 parameter update 방식을 반복해서 적용하는 것(오차를 최소화 해나가는 과정)임을 알 수 있다. 결국 Cost를 최소화 해나가는 반복된 parameter update과정이며 본질적으로 Fitting이고 Regression이다. (내가 잘 몰라서 이렇게 얘기하는 것일수도 있지만 어쨌든 지금까지 내 생각은 이렇다.)
+앞에서 얘기했던 Machine Learning의 정의를 생각해 보면 (Data로 부터 학습하는 알고리즘) '학습'이라는 단어에 대해 이제는 다른 느낌을 가졌으면 좋겠다. 결국 Gradient Descent 알고리즘이 제안하는 parameter update 방식을 반복해서 적용하는 것(오차를 최소화 해나가는 과정)이 '학습'을 의미했다. Cost를 최소화 해나가는 반복된 parameter update과정이며 결국 Fitting이고 Regression이다.
 
 물론 본 예제에서 수행한 Linear Regression은 굳이 이런 Gradient Descent를 쓰지 않더라고 코드 한줄로 답이 나오게 하는 함수들이 많다. 하지만 이 알고리즘을 이해하는데는 분명히 도움이 되었으리라 생각한다. 다음 Posting에서 인공신경망으로 학습을 시킬 때 다시한번 Gradient Descent를 사용할 것이다.
