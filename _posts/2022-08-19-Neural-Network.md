@@ -18,7 +18,7 @@ Michael Nielsen의 ["Neural Networks and Deep Learning"](http://neuralnetworksan
 
 내 생각에도 인공신경망은 수학모델이고 Regression에 활용될 뿐이다. 다만 모든 모양의 함수를 표현할 수 있는 매우 큰 그릇같은 느낌이다. 실제로 수학적으로 그렇다. 증명은 여기서 안다루고 관련 자료는 [여기](http://neuralnetworksanddeeplearning.com/chap4.html) 참고하면 된다.
 
-보통 [아래 그림]((https://www.ibm.com/kr-ko/cloud/learn/neural-networks))처럼 인공신경망을 표현한다.
+보통 [아래 그림](https://www.ibm.com/kr-ko/cloud/learn/neural-networks)처럼 인공신경망을 표현한다.
 
 ![Deel Learning](https://1.cms.s81c.com/sites/default/files/2021-01-06/ICLH_Diagram_Batch_01_03-DeepNeuralNetwork-WHITEBG.png){: width="500" height ="300"}
 
