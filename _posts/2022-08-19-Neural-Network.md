@@ -7,7 +7,7 @@ math: true
 mermaid: true
 ---
 
-인공신경망에 대해 알아본다. 먼저 수학적인 표현에 대해 살펴본 이후 아주 간단한 구조의 인공신경망으로 Gradient Descent 알고리즘을 유도한다. 정리된 알고리즘대로 Python으로 Machine Learning도 진행한다. 
+인공신경망에 대해 알아본다. 먼저 수학적인 표현에 대해 살펴본 이후 아주 간단한 구조의 인공신경망에 Gradient Descent를 적용해본다. 정리된 알고리즘대로 Python으로 Machine Learning도 진행한다. 
 
 
 ## 1. Intro
@@ -289,7 +289,7 @@ plt.show()
 
 (x1, x2, y) 형태의 data를 2d로 표현해보면 아래 그림과 같다. 파란색 점은 y=1인 경우고 주황색 점은 y=0인 경우에 해당한다. 빨간 선은 학습결과 구해진 weight를 가지고 선형조합 부분을 표현한 것이며 x1과 x2로 이루어진 plane을 y=0과 y=1이 나오는 부분으로 나눠주는 것을 볼 수 있다.
 
-빨간색 선 아래 부분은 활성화되지 못하는 영역, 빨간색 선 위 부분은 활성화되는 영역이라고 생각해도 될 것 같다.
+빨간색 선 아래 부분은 활성화되지 못하는 영역, 빨간색 선 위 부분은 활성화되는 영역이라고 생각해도 될 것 같다. 빨간선을 Decision Boundary라고 부르기도 한다.
     
 ![png](https://raw.github.com/ch-hey/imgcdn/master/img/2022-08-10/output_4_0.png)
     

@@ -11,7 +11,7 @@ image:
   alt: AI Character
 ---
 
-인공지능 (Artificial Intelligence, AI), 머신러닝 (Machine Learing, ML), 딥러닝 (Deep Learning, DL)의 정의에 대해 찾아본 내용을 정리한다. 시간이 좀 걸리더라도 용어에 대한 정의를 곱씹은 후에 더 깊게 들어 가는것이 결국 가장 빠른 방법이다. 여기에는 용어별 정의와 적용/활용 되는 범위와 공부하는데 좋았던 사이트, 자료들 출처도 함께 정리한다. 
+인공지능 (Artificial Intelligence, AI), 머신러닝 (Machine Learing, ML), 딥러닝 (Deep Learning, DL)의 정의에 대해 찾아본 내용을 정리한다. 시간이 좀 걸리더라도 용어에 대한 정의를 제대로 확인한 후에 더 깊게 들어 가는것이 결국 가장 빠른 방법이다. 여기에는 용어별 정의와 적용/활용 되는 범위와 공부하는데 좋았던 사이트, 자료들 출처도 함께 정리한다. 
 
 다른 포스팅에 간단한 수학과 `Python` 프로그래밍 예제 정리할 계획이다.
 
@@ -77,7 +77,7 @@ Laurence의 [Coursera 강의](https://www.coursera.org/professional-certificates
 
 학습을 한다고 표현을 하니 막연하게 느껴질 수도 있지만, 예시를 한 번 보면 그냥 결국 Fitting 하는거구나 생각이 든다. 추상적이고 막연한 느낌을 가지는 것보다는 그냥 수학이구나 하는 생각을 가지는 게 거리감도 덜 들고 처음에 그냥 해보기에 좋다고 생각한다.
 
-실은 넓게 보면 Linear Regression도 Machine Learning이다. 
+넓게 보면 Linear Regression도 Machine Learning이다. 
 
 ### 2.2. Hierachy
 
@@ -91,7 +91,7 @@ Laurence의 [Coursera 강의](https://www.coursera.org/professional-certificates
 
 답이 함께 정리되지 않은 data를 학습에 사용하는 경우는 Unsupervised Learning이라고 부르며 그림에서는 크게 Clustering과 Dimensionality reduction으로 구분하지만 실은 이분야는 이런식으로 구분하기는 쉽지 않고 그냥 이런 분야가 있다 정도로 생각하면 좋을 것 같다.
 
-참고로 Andrew NG교수의 **위 모든 분야와 하나하나의 모델을 겪어볼 수 있는 범위의 [Coursera 강의](https://www.coursera.org/learn/machine-learning)가 있다.** 긴말 필요없이 강추.
+참고로 Andrew NG교수의 **위 모든 분야와 하나하나의 모델을 겪어볼 수 있는 범위의 [Coursera 강의](https://www.coursera.org/specializations/machine-learning-introduction?)가 있다.** 긴말 필요없이 강추.
 
 ## 3. Deep Learning
 
@@ -115,5 +115,5 @@ Laurence의 [Coursera 강의](https://www.coursera.org/professional-certificates
 
 따라서 수학으로 정의된 책이나 강의를 보는 것을 추천드린다. 직접 코드짜보고 머신러닝을 해보면 훨씬 더 체감이 되고 이해하기 쉽다. 여기서는 그냥 개괄적인 내용만 다루고 자세한 내용은 다른 포스팅에 하나씩 풀어갈 예정이다.
 
-특히 Coursera에 있는 [Andrew NG교수 강의](https://www.coursera.org/learn/machine-learning)를 추천드린다. 관련 포스팅의 주된 부분도 이 수업에서 배운 내용을 정리할 예정이다.
+특히 Coursera에 있는 [Andrew NG교수 강의](https://www.coursera.org/specializations/machine-learning-introduction?)를 추천드린다. 관련 포스팅의 주된 부분도 이 수업에서 배운 내용을 정리할 예정이다.
 

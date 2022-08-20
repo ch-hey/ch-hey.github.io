@@ -7,9 +7,9 @@ math: true
 mermaid: true
 ---
 
-수치해석시간에 배우는 내용들 기억이 난다면 빠르게 Skip해도 좋지만 후반부에 Python으로 작성한 코드도 있기 때문에 한 번 정도는 보는 것도 좋을 것 같다. 
+수치해석시간에 배우는 내용들 기억한다면 빠르게 Skip해도 좋다. 후반부에 Python으로 작성한 코드도 있기 때문에 한 번 정도는 보는 것도 좋을 것 같다. 
 
-Gradient Descent 방식을 통해 Linear Regression을 진행한다. 결국 Machine Learning이란걸 해본다.
+Gradient Descent 방식을 통해 Linear Regression을 진행한다. Machine Learning이란걸 해본다.
 
 ## 1. Intro
 
@@ -268,7 +268,7 @@ plt.show()
 
 ## Summary
 
-Labeled Data(붓꽃 꽃잎의 길이-너비 data)를 이용해서 첫번째 **Machine Learning**을 해보았다. Cost Function을 최소화하는 선형식 h의 parameter를 Gradient Descent 알고리즘으로 구해보았고 실제로 잘 작동하는 것을 확인했다. 모든 경우에 잘 작동하는 것은 아니며 Cost Function이 Convex한 형태여야만 global minimum에 도달할 수 있으며 아닌 경우 local minimum에 빠질 수 있다. 더 궁금해서 자세한 설명이 필요하면 [이 문서](http://sanghyukchun.github.io/63/)혹은 Andrew Ng교수의 수업을 추천한다.
+Labeled Data(붓꽃 꽃잎의 길이-너비 data)를 이용해서 첫번째 **Machine Learning**을 해보았다. Cost Function을 최소화하는 선형식 h의 parameter를 Gradient Descent 알고리즘으로 구해보았고 실제로 잘 작동하는 것을 확인했다. 모든 경우에 잘 작동하는 것은 아니며 Cost Function이 Convex한 형태여야만 global minimum에 도달할 수 있으며 아닌 경우 local minimum에 빠질 수 있다. 더 궁금해서 자세한 설명이 필요하면 [이 문서](http://sanghyukchun.github.io/63/)혹은 [Andrew Ng교수의 수업](https://www.coursera.org/specializations/machine-learning-introduction?)을 추천한다.
 
 앞에서 얘기했던 Machine Learning의 정의를 생각해 보면 (Data로 부터 학습하는 알고리즘) '학습'이라는 단어에 대해 이제는 다른 느낌을 가졌으면 좋겠다. 결국 Gradient Descent 알고리즘이 제안하는 parameter update 방식을 반복해서 적용하는 것(오차를 최소화 해나가는 과정)이 '학습'을 의미했다. Cost를 최소화 해나가는 반복된 parameter update과정이며 결국 Fitting이고 Regression이다.
 

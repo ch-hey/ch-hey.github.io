@@ -106,7 +106,7 @@ python을 실행하려면 추가 기능을 설치해야 한다. 아래처럼 빨
 
 ## 4. Hello World!
 
-이제 python code를 작성하고 실행시켜 볼 것이다. Code Editor로 VSCode를 활용해서 Jupyter로 작성/구동해 볼 것이다. 아래 영상대로 진행해보자. (영상은 gif로 반복이 안걸려있다. 처음부터 보려면 새로고침(F5) 눌러본다.)
+이제 python code를 작성하고 실행시켜 볼 것이다. 프로그래밍언어 처음배울때 "Hello World!"라는 문자열을 출력해 보는건 국룰이다. Code Editor로 VSCode를 활용해서 Jupyter로 작성/구동해 볼 것이다. 아래 영상대로 진행해보자. (영상은 gif로 반복이 안걸려있다. 처음부터 보려면 새로고침(F5) 눌러본다.)
 
 ![gif](https://raw.github.com/ch-hey/imgcdn/master/img/2022-08-16/Animation_f.gif){:. width = "300"}
 
