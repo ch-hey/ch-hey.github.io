@@ -2,7 +2,7 @@
 title: Gradient Descent
 date: 2022-08-08 19:55:00 +0800
 categories: [Machine Learning, Gradient Descent]
-tags: [Machine Learning, Gradient Descent, Linear Regression]
+tags: [Machine Learning, Gradient Descent, Linear Regression, Python, AI]
 math: true
 mermaid: true
 ---

@@ -2,7 +2,7 @@
 title: Artificial Neural Network
 date: 2022-08-19 19:55:00 +0800
 categories: [Machine Learning, Neural Network]
-tags: [Machine Learning, Neural Network]
+tags: [Machine Learning, Neural Network, Python]
 math: true
 mermaid: true
 ---
