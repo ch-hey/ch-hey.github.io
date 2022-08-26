@@ -1,5 +1,5 @@
 ---
-title: Python 설치, 개발환경 세팅
+title: "[Python] 설치, 개발환경 세팅"
 date: 2022-08-03 19:55:00 +0800
 categories: [Python, Initial Setting]
 tags: [Python, Initial Setting, VSCode]

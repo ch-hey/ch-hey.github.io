@@ -1,5 +1,5 @@
 ---
-title: Artificial Neural Network
+title: "[머신러닝] 인공신경망 Artificial Neural Network"
 date: 2022-08-19 19:55:00 +0800
 categories: [Machine Learning, Neural Network]
 tags: [Machine Learning, Neural Network, Python]
@@ -95,7 +95,7 @@ $$h_{2} = {1 \over {1 + {e}^{-(\theta_{02}^2+\theta_{12}^2a_1 + \theta_{22}^2a_2
 
 ### 2.1. Hyper-parameter
 
-weight와 bias처럼 선형조합에 사용되는 일종의 coefficient들을 parameter라고 불렀다. 추가로 hidden layer의 layer층 개수를 특별히 hyper-parameter라고 부른다. 인공신경망의 구조에 관련된 숫자라는 의미다. Data의 크기를 포함한 다양한 이유로 hidden-layer층 개수는 많을수도, 적을수도 있다. 관련한 자세한 내용이 궁금하면 [이 문서](https://ikkison.tistory.com/92)가 좋아보인다.
+weight와 bias처럼 선형조합에 사용되는 일종의 coefficient들을 parameter라고 불렀다. 추가로 hidden layer의 layer층 개수나 unit개수 등 구조에 관련된 숫자를 특별히 hyper-parameter라고 부른다. Data의 크기를 포함한 다양한 이유로 hidden-layer층 개수는 많을수도, 적을수도 있다. 관련한 자세한 내용이 궁금하면 [이 문서](https://ikkison.tistory.com/92)가 좋아보인다.
 
 Parameter는 Gradient-Descent같은 방식으로 구하지만 hyper-parameter는 그러지 못한다. 경험적으로 구하거나 trial-error를 해야하며 정형화된 방법은 없는 것 같다. 그냥 일단 해보고 결과보고 그에따라 대응하는 것 같다.
 
@@ -299,6 +299,6 @@ plt.show()
 
 실은 hidden layer가 없는 인공신경망은 결국 logistic regression과 동일한 구조라서 인공신경망을 했다고 말하기는 좀 민망하긴 하다. 하지만 작동원리를 알아보는데는 이정도면 충분할 것 같다. 결국 서로 복잡하게 얼키고 설킨 logistic regression이 인공신경망이라고 생각한다.
 
-수식은 나름 정리해봤지만 정말 간단한 케이스에 대해서만 봤을 뿐이다. 진짜 수학적으로 궁금한게 많다면, Michael Nielsen의 ["Neural Networks and Deep Learning"](http://neuralnetworksanddeeplearning.com/) 다시 한번 추천한다.
+수식은 나름 정리해봤지만 정말 간단한 케이스에 대해서만 봤을 뿐이다. 진짜 수학적으로 궁금한게 많다면, Michael Nielsen의 ["Neural Networks and Deep Learning"](http://neuralnetworksanddeeplearning.com/) 다시 한번 추천한다. 
 
-실은 수식은 다 까먹어도 상관없다. 다시는 Gradient Descent도 볼 일 없을 것이다. 이런게 있었지 하는 정도로 충분하다. 위에 보이는 하드코딩도 더이상 안해도 될 것같다. 이제 실제 꽤 큰 데이터로 머신러닝을 진행해 볼 것이다. 다음 포스팅은 [Tensorflow Regression Tutorial](https://www.tensorflow.org/tutorials/keras/regression)예제를 중심으로 해보려고 한다.
+인공신경망 먼저 정리해보긴 했는데 다른 모델들도 많다. 인공신경망을 이용한 머신러닝은 [Tensorflow](https://www.tensorflow.org/), 그외 다양한 방법들은 [scikit-learn](https://scikit-learn.org/stable/index.html)이 Python 라이브러리로 유명하다. 아, [Pytorch](https://pytorch.org/)도 있다. 이제는 라이브러리를 어떻게 쓰는지 공부해야 한다..

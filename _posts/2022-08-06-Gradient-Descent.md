@@ -1,5 +1,5 @@
 ---
-title: Gradient Descent
+title: "[머신러닝] Linear Regression with Gradient Descent"
 date: 2022-08-08 19:55:00 +0800
 categories: [Machine Learning, Gradient Descent]
 tags: [Machine Learning, Gradient Descent, Linear Regression, Python, AI]
@@ -270,6 +270,4 @@ plt.show()
 
 Labeled Data(붓꽃 꽃잎의 길이-너비 data)를 이용해서 첫번째 **Machine Learning**을 해보았다. Cost Function을 최소화하는 선형식 h의 parameter를 Gradient Descent 알고리즘으로 구해보았고 실제로 잘 작동하는 것을 확인했다. 모든 경우에 잘 작동하는 것은 아니며 Cost Function이 Convex한 형태여야만 global minimum에 도달할 수 있으며 아닌 경우 local minimum에 빠질 수 있다. 더 궁금해서 자세한 설명이 필요하면 [이 문서](http://sanghyukchun.github.io/63/)혹은 [Andrew Ng교수의 수업](https://www.coursera.org/specializations/machine-learning-introduction?)을 추천한다.
 
-앞에서 얘기했던 Machine Learning의 정의를 생각해 보면 (Data로 부터 학습하는 알고리즘) '학습'이라는 단어에 대해 이제는 다른 느낌을 가졌으면 좋겠다. 결국 Gradient Descent 알고리즘이 제안하는 parameter update 방식을 반복해서 적용하는 것(오차를 최소화 해나가는 과정)이 '학습'을 의미했다. Cost를 최소화 해나가는 반복된 parameter update과정이며 결국 Fitting이고 Regression이다.
-
-물론 본 예제에서 수행한 Linear Regression은 굳이 이런 Gradient Descent를 쓰지 않더라고 코드 한줄로 답이 나오게 하는 함수들이 많다. 하지만 이 알고리즘을 이해하는데는 분명히 도움이 되었으리라 생각한다. 다음 Posting에서 인공신경망으로 학습을 시킬 때 다시한번 Gradient Descent를 사용할 것이다.
+이 분야에서 말하는 '학습'이라는 단어에 대해 이제는 다른 느낌을 가졌으면 좋겠다. 결국 Gradient Descent 알고리즘이 제안하는 parameter update 방식을 반복해서 적용하는 것(오차를 최소화 해나가는 과정)이 '학습'을 의미했다. Cost를 최소화 해나가는 반복된 parameter update과정이며 결국 Fitting이고 Regression이다.

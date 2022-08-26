@@ -1,5 +1,5 @@
 ---
-title: Artificial Intelligence
+title: "[머신러닝] 시작 - 용어정리"
 date: 2022-08-05 20:55:00 +0800
 categories: [Machine Learning, Definition]
 tags: [AI, Machine Learning]
@@ -111,9 +111,9 @@ Laurence의 [Coursera 강의](https://www.coursera.org/professional-certificates
 
 ## Summary
 
-나름 여기저기서 긁어모은 자료들을 정리하고 엮어보았는데 잘못된 정보가 있을 수도 있고 이쪽 분야에서 충분히 합의되지 않은 내용이 들어가 있을 수도 있다. 그리고 이 분야가 워낙 변화가 많은 곳이다 보니 지금은 맞지만 나중에는 아닌 경우가 있을 수도 있다.
+나름 여기저기서 긁어모은 자료들을 정리하고 엮어보았는데 잘못된 정보가 있을 수도 있고 이쪽 분야에서 충분히 합의되지 않은 내용이 들어가 있을 수도 있다.
 
-따라서 수학으로 정의된 책이나 강의를 보는 것을 추천드린다. 직접 코드짜보고 머신러닝을 해보면 훨씬 더 체감이 되고 이해하기 쉽다. 여기서는 그냥 개괄적인 내용만 다루고 자세한 내용은 다른 포스팅에 하나씩 풀어갈 예정이다.
+따라서 관련 책이나 강의를 보는 것을 추천드린다. 직접 코드짜보고 머신러닝을 해보면 훨씬 더 체감이 되고 이해하기 쉽다. 여기서는 그냥 개괄적인 내용만 다루고 자세한 내용은 다른 포스팅에 하나씩 풀어갈 예정이다.
 
 특히 Coursera에 있는 [Andrew NG교수 강의](https://www.coursera.org/specializations/machine-learning-introduction?)를 추천드린다. 관련 포스팅의 주된 부분도 이 수업에서 배운 내용을 정리할 예정이다.
 

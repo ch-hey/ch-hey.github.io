@@ -1,5 +1,5 @@
 ---
-title: 아니 이렇게 좋다는데 Python 안할꺼임?
+title: "[Python] 파이썬 하자고 꼬시는 글"
 date: 2022-08-02 11:33:00 +0800
 categories: [Orientation, Python 하자고 꼬시는 글]
 tags: [Python]

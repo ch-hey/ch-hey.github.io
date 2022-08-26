@@ -3,7 +3,6 @@ title: Orientation
 date: 2022-08-01 11:33:00 +0800
 categories: [Orientation]
 tags: [Orientation]
-pin: true
 ---
 
 이 Blog에서 다룰 프로그래밍 언어에 대한 Orientation이다. 뭐 하려고 하는지 어떤 내용 있는지 앞으로 어떤 내용 작성하려는지 정리해본다.

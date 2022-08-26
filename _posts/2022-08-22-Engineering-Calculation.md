@@ -1,8 +1,8 @@
 ---
-title: Engineering Calculation - ODE, Kinetics
+title: "[Eng. Calc.] Differential Equations - Kinetics"
 date: 2022-08-22 19:55:00 +0800
 categories: [Engineering Calculation, ODE-Kinetics]
-tags: [Engineering Calculation, Python, Kinetics, ODE]
+tags: [Engineering Calculation, Python, Kinetics, Differential Equation]
 math: true
 mermaid: true
 ---
