@@ -6,15 +6,13 @@ tags: [Python, Virtual Environment, VSCode, Python 32bit]
 pin: false
 ---
 
-![Virtual Environments](https://miro.medium.com/v2/resize:fit:720/format:webp/1*wC-mrXuYgarKP8bSK3AivQ.png){:. width="600"}
-
 가상환경 설정을 통해 다양한 개발환경 세팅하는 방법을 정리해본다. 
+
+가상환경이라고 하니까 뭐 대단히 별거인거 같지만, 막상 해보면 쉽게 된다. 하나의 PC에서 python v3.2도 쓰고 v3.6도 쓰고 그러고 싶으면 하는 일들이라고 생각하면 편하다.
 
 자세하게는 Python 64bit가 설치된 PC에서 python 32bit 개발환경을 가상환경으로 만드는 방법에 대해 정리해본다. vscode를 사용할 것이다. 구글에 'python venv 가상환경' 이렇게 검색해보면 많이들 나온다.
 
 ## 1. Intro
-
-가상환경은 뭐고 왜 필요할까.
 
 여태까지 단순한 공학용 계산이나 아주 기초적인 자동화만 했었다. 이런 상황에서는 기존에 잘 사용하던 Python version에서 벗어나 새로운 개발환경이 필요한 경우는 아직까지는 한 번도 없었다. 
 
@@ -38,7 +36,7 @@ Python을 처음에 설치하게 될 때 자동으로 같이 설치되는 표준
 
 먼저 vscode로 커맨드 창을 열거다. 그 전에 default로 Terminal Profile을 Command Prompt로 설정해준다. 처음에는 powershell로 되어 있을 텐데 CMD로 하는 게 추천된다고 한다. 설정 방법은 [여기](https://hianna.tistory.com/349)를 참고하자.
 
-이제 vscode에서 터미널을 열고 가상환경 '폴더'를 만들 위치로 가보자. 커맨드창에서 특정 경로로 가는 방법은 `cd '원하는 directory` 이다. 잘 모르겠으면 구글링 해보자.
+이제 vscode에서 터미널을 열고 가상환경 '폴더'를 만들 위치로 가보자. 커맨드창에서 특정 경로로 가는 방법은 `cd '원하는 directory'` 이다. 잘 모르겠으면 구글링 해보자.
 
 아니면 바탕화면에 test라는 폴더 하나 만들고 우클릭해서 vscode로 열어준다. 그리고 terminal열고 아래 명령어를 입력한다
 
